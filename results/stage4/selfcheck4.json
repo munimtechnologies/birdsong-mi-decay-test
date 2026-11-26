@@ -1,0 +1,44 @@
+{
+ "seed": 20261124,
+ "n_worlds": 12,
+ "n_perm": 20,
+ "n_surr": 40,
+ "summary": {
+  "S0": {
+   "worlds": 12,
+   "t4a_fire_rate": 0.0,
+   "t4c_exceeds": 0.0,
+   "t4c_suffices": 0.0,
+   "cross_bout_order": 0.0
+  },
+  "S1": {
+   "worlds": 12,
+   "t4a_fire_rate": 0.9166666666666666,
+   "t4c_exceeds": 0.08333333333333333,
+   "t4c_suffices": 0.8333333333333334,
+   "cross_bout_order": 0.0
+  },
+  "S3": {
+   "worlds": 12,
+   "t4a_fire_rate": 1.0,
+   "t4c_exceeds": 1.0,
+   "t4c_suffices": 0.0,
+   "cross_bout_order": 1.0
+  },
+  "S4": {
+   "worlds": 12,
+   "t4a_fire_rate": 0.08333333333333333,
+   "t4c_exceeds": 1.0,
+   "t4c_suffices": 0.0,
+   "cross_bout_order": 0.0
+  }
+ },
+ "verdict": {
+  "t4c_calibrated": true,
+  "false_exceeds_S0": 0.0,
+  "false_exceeds_S1": 0.08333333333333333,
+  "exceeds_S3_cross_bout": 1.0,
+  "cross_bout_label_S3": 1.0,
+  "power_S4_within_bout_hierarchy": 1.0
+ }
+}
