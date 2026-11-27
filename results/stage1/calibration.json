@@ -1,0 +1,65 @@
+{
+ "stage": 1,
+ "seed": 20261124,
+ "worlds_per_scenario": 50,
+ "primary_criterion": "composite has the lowest AICc and relative probability > 0.999",
+ "summary": {
+  "W0_plain_markov": {
+   "worlds": 50,
+   "fires_strong": 3,
+   "fire_rate_strong": 0.06,
+   "fires_best": 5,
+   "fire_rate_best": 0.1,
+   "median_d_aicc_exp_minus_comp": -4.365469596309168
+  },
+  "W1_two_timescale_markov": {
+   "worlds": 50,
+   "fires_strong": 4,
+   "fire_rate_strong": 0.08,
+   "fires_best": 19,
+   "fire_rate_best": 0.38,
+   "median_d_aicc_exp_minus_comp": -1.4011262615991882
+  },
+  "W2_pooled_individuals": {
+   "worlds": 50,
+   "fires_strong": 46,
+   "fire_rate_strong": 0.92,
+   "fires_best": 50,
+   "fire_rate_best": 1.0,
+   "median_d_aicc_exp_minus_comp": 265.80683587034173
+  },
+  "W3_bout_song_types": {
+   "worlds": 50,
+   "fires_strong": 50,
+   "fire_rate_strong": 1.0,
+   "fires_best": 50,
+   "fire_rate_best": 1.0,
+   "median_d_aicc_exp_minus_comp": 514.1645443321861
+  },
+  "W4_house_finch_design": {
+   "worlds": 50,
+   "fires_strong": 0,
+   "fire_rate_strong": 0.0,
+   "fires_best": 1,
+   "fire_rate_best": 0.02,
+   "median_d_aicc_exp_minus_comp": -4.388297797406665
+  },
+  "W5_recursive_hierarchy": {
+   "worlds": 50,
+   "fires_strong": 2,
+   "fire_rate_strong": 0.04,
+   "fires_best": 16,
+   "fire_rate_best": 0.32,
+   "median_d_aicc_exp_minus_comp": 42.70635258684088
+  }
+ },
+ "grade_primary": {
+  "verdict": "UNCALIBRATED_MULTI_TIMESCALE",
+  "positive_control_ok": false
+ },
+ "grade_secondary_lowest_aicc": {
+  "verdict": "UNCALIBRATED_MULTI_TIMESCALE",
+  "positive_control_ok": false
+ },
+ "runtime_s": 531.2118213176727
+}

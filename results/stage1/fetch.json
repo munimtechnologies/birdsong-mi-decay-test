@@ -1,0 +1,34 @@
+{
+ "zip_url": "https://zenodo.org/api/records/10786105/files/masonyoungblood/linguistic_efficiency-v1.0.1-zenodo.zip/content",
+ "zip_bytes": 95781849,
+ "zip_md5": "e5770657a37ebe3d7d0a40461d40ce75",
+ "licence": "CC BY 4.0 (Zenodo record)",
+ "extracted": {
+  "mi_data.RData": {
+   "zip_member": "masonyoungblood-linguistic_efficiency-1e6e2c0/docs/data_models/mi_data.RData",
+   "bytes": 80003,
+   "sha256": "56c640111049c7bfd32bdc9b7b205db0aacb984b7a3ddc9908796cadbd1fbe2b"
+  },
+  "mi_models.RData": {
+   "zip_member": "masonyoungblood-linguistic_efficiency-1e6e2c0/docs/data_models/mi_models.RData",
+   "bytes": 2551,
+   "sha256": "3494ef820ee120f4775b4aad2b963cf1c3e70eeea5d7ef2ba6529ed0a49d9dfb"
+  },
+  "mi_models_bout_level.RData": {
+   "zip_member": "masonyoungblood-linguistic_efficiency-1e6e2c0/docs/data_models/mi_models_bout_level.RData",
+   "bytes": 700,
+   "sha256": "b3cea5056e88e61a847c7eeef66f0256a5b5db397665746cc403320d9658d4e7"
+  },
+  "mi_simulated.RData": {
+   "zip_member": "masonyoungblood-linguistic_efficiency-1e6e2c0/docs/data_models/mi_simulated.RData",
+   "bytes": 2103,
+   "sha256": "8a368089acc65d88d01a314656463c0ff49830460bbe337250a6457361b054cc"
+  },
+  "processed_data.RData": {
+   "zip_member": "masonyoungblood-linguistic_efficiency-1e6e2c0/docs/data_models/processed_data.RData",
+   "bytes": 35206048,
+   "sha256": "bc45cf2d3b19808b48c1c3563aecc6b1171e6078d97fee6c76de9a8f08a008c7"
+  }
+ },
+ "missing": []
+}

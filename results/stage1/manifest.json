@@ -1,0 +1,604 @@
+{
+ "processed_data.RData": {
+  "bytes": 35206048,
+  "objects": {
+   "type": "builtins.dict",
+   "n_keys": 1,
+   "keys": {
+    "processed_data": {
+     "type": "builtins.dict",
+     "n_keys": 2,
+     "keys": {
+      "data": {
+       "type": "pandas.DataFrame",
+       "shape": [
+        42099,
+        23
+       ],
+       "columns": [
+        {
+         "name": "individual",
+         "dtype": "string",
+         "n_unique": 331,
+         "n_missing": 0
+        },
+        {
+         "name": "song",
+         "dtype": "string",
+         "n_unique": 2724,
+         "n_missing": 0
+        },
+        {
+         "name": "syllable",
+         "dtype": "string",
+         "n_unique": 119,
+         "n_missing": 0
+        },
+        {
+         "name": "meanfreq",
+         "dtype": "object",
+         "n_unique": null,
+         "n_missing": 0
+        },
+        {
+         "name": "concavity",
+         "dtype": "float64",
+         "n_unique": 4096,
+         "n_missing": 0
+        },
+        {
+         "name": "excursion",
+         "dtype": "float64",
+         "n_unique": 42098,
+         "n_missing": 0
+        },
+        {
+         "name": "average",
+         "dtype": "float64",
+         "n_unique": 42099,
+         "n_missing": 0
+        },
+        {
+         "name": "min",
+         "dtype": "float64",
+         "n_unique": 41762,
+         "n_missing": 0
+        },
+        {
+         "name": "max",
+         "dtype": "float64",
+         "n_unique": 41957,
+         "n_missing": 0
+        },
+        {
+         "name": "bandwidth",
+         "dtype": "float64",
+         "n_unique": 42098,
+         "n_missing": 0
+        },
+        {
+         "name": "duration",
+         "dtype": "Int32",
+         "n_unique": 544,
+         "n_missing": 0
+        },
+        {
+         "name": "cluster_0",
+         "dtype": "float64",
+         "n_unique": 13,
+         "n_missing": 0
+        },
+        {
+         "name": "cluster_1",
+         "dtype": "float64",
+         "n_unique": 36,
+         "n_missing": 0
+        },
+        {
+         "name": "cluster_2",
+         "dtype": "float64",
+         "n_unique": 114,
+         "n_missing": 0
+        },
+        {
+         "name": "cluster_3",
+         "dtype": "float64",
+         "n_unique": 596,
+         "n_missing": 0
+        },
+        {
+         "name": "cluster_4",
+         "dtype": "float64",
+         "n_unique": 1646,
+         "n_missing": 0
+        },
+        {
+         "name": "year",
+         "dtype": "float64",
+         "n_unique": 3,
+         "n_missing": 0
+        },
+        {
+         "name": "count_0",
+         "dtype": "Int32",
+         "n_unique": 13,
+         "n_missing": 0
+        },
+        {
+         "name": "count_1",
+         "dtype": "Int32",
+         "n_unique": 29,
+         "n_missing": 0
+        },
+        {
+         "name": "count_2",
+         "dtype": "Int32",
+         "n_unique": 73,
+         "n_missing": 0
+        },
+        {
+         "name": "count_3",
+         "dtype": "Int32",
+         "n_unique": 152,
+         "n_missing": 0
+        },
+        {
+         "name": "count_4",
+         "dtype": "Int32",
+         "n_unique": 162,
+         "n_missing": 0
+        },
+        {
+         "name": "song_length",
+         "dtype": "Int32",
+         "n_unique": 51,
+         "n_missing": 0
+        }
+       ]
+      },
+      "syl_types": {
+       "type": "builtins.list",
+       "length": 5,
+       "first": {
+        "type": "pandas.DataFrame",
+        "shape": [
+         13,
+         9
+        ],
+        "columns": [
+         {
+          "name": "type",
+          "dtype": "float64",
+          "n_unique": 13,
+          "n_missing": 0
+         },
+         {
+          "name": "count",
+          "dtype": "Int32",
+          "n_unique": 13,
+          "n_missing": 0
+         },
+         {
+          "name": "concavity",
+          "dtype": "float64",
+          "n_unique": 13,
+          "n_missing": 0
+         },
+         {
+          "name": "excursion",
+          "dtype": "float64",
+          "n_unique": 13,
+          "n_missing": 0
+         },
+         {
+          "name": "average",
+          "dtype": "float64",
+          "n_unique": 13,
+          "n_missing": 0
+         },
+         {
+          "name": "min",
+          "dtype": "float64",
+          "n_unique": 13,
+          "n_missing": 0
+         },
+         {
+          "name": "max",
+          "dtype": "float64",
+          "n_unique": 13,
+          "n_missing": 0
+         },
+         {
+          "name": "bandwidth",
+          "dtype": "float64",
+          "n_unique": 13,
+          "n_missing": 0
+         },
+         {
+          "name": "duration",
+          "dtype": "float64",
+          "n_unique": 13,
+          "n_missing": 0
+         }
+        ]
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "mi_data.RData": {
+  "bytes": 80003,
+  "objects": {
+   "type": "builtins.dict",
+   "n_keys": 1,
+   "keys": {
+    "mi_data": {
+     "type": "builtins.list",
+     "length": 3,
+     "first": {
+      "type": "pandas.DataFrame",
+      "shape": [
+       1218,
+       4
+      ],
+      "columns": [
+       {
+        "name": "dist",
+        "dtype": "Int32",
+        "n_unique": 1218,
+        "n_missing": 0
+       },
+       {
+        "name": "mi",
+        "dtype": "float64",
+        "n_unique": 1217,
+        "n_missing": 0
+       },
+       {
+        "name": "mi_raw",
+        "dtype": "float64",
+        "n_unique": 1218,
+        "n_missing": 0
+       },
+       {
+        "name": "mi_base",
+        "dtype": "float64",
+        "n_unique": 1218,
+        "n_missing": 0
+       }
+      ]
+     }
+    }
+   }
+  }
+ },
+ "mi_models.RData": {
+  "bytes": 2551,
+  "objects": {
+   "type": "builtins.dict",
+   "n_keys": 1,
+   "keys": {
+    "mi_models": {
+     "type": "builtins.list",
+     "length": 3,
+     "first": {
+      "type": "builtins.dict",
+      "n_keys": 6,
+      "keys": {
+       "waic": {
+        "type": "numpy.ndarray",
+        "shape": [
+         3
+        ],
+        "dtype": "float64"
+       },
+       "r2": {
+        "type": "xarray.core.dataarray.DataArray",
+        "shape": [
+         3,
+         4
+        ],
+        "dtype": "float64",
+        "dims": [
+         "dim_0",
+         "dim_1"
+        ]
+       },
+       "priors": {
+        "type": "pandas.DataFrame",
+        "shape": [
+         9,
+         10
+        ],
+        "columns": [
+         {
+          "name": "prior",
+          "dtype": "string",
+          "n_unique": 3,
+          "n_missing": 0
+         },
+         {
+          "name": "class",
+          "dtype": "string",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "coef",
+          "dtype": "string",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "group",
+          "dtype": "string",
+          "n_unique": 1,
+          "n_missing": 0
+         },
+         {
+          "name": "resp",
+          "dtype": "string",
+          "n_unique": 1,
+          "n_missing": 0
+         },
+         {
+          "name": "dpar",
+          "dtype": "string",
+          "n_unique": 1,
+          "n_missing": 0
+         },
+         {
+          "name": "nlpar",
+          "dtype": "string",
+          "n_unique": 5,
+          "n_missing": 0
+         },
+         {
+          "name": "lb",
+          "dtype": "string",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "ub",
+          "dtype": "string",
+          "n_unique": 1,
+          "n_missing": 0
+         },
+         {
+          "name": "source",
+          "dtype": "string",
+          "n_unique": 2,
+          "n_missing": 0
+         }
+        ]
+       },
+       "exponential_fit": {
+        "type": "pandas.DataFrame",
+        "shape": [
+         2,
+         7
+        ],
+        "columns": [
+         {
+          "name": "Estimate",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "Est.Error",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "l-95% CI",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "u-95% CI",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "Rhat",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "Bulk_ESS",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "Tail_ESS",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         }
+        ]
+       },
+       "power_law_fit": {
+        "type": "pandas.DataFrame",
+        "shape": [
+         2,
+         7
+        ],
+        "columns": [
+         {
+          "name": "Estimate",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "Est.Error",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "l-95% CI",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "u-95% CI",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "Rhat",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "Bulk_ESS",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         },
+         {
+          "name": "Tail_ESS",
+          "dtype": "float64",
+          "n_unique": 2,
+          "n_missing": 0
+         }
+        ]
+       },
+       "composite_fit": {
+        "type": "pandas.DataFrame",
+        "shape": [
+         4,
+         7
+        ],
+        "columns": [
+         {
+          "name": "Estimate",
+          "dtype": "float64",
+          "n_unique": 4,
+          "n_missing": 0
+         },
+         {
+          "name": "Est.Error",
+          "dtype": "float64",
+          "n_unique": 4,
+          "n_missing": 0
+         },
+         {
+          "name": "l-95% CI",
+          "dtype": "float64",
+          "n_unique": 4,
+          "n_missing": 0
+         },
+         {
+          "name": "u-95% CI",
+          "dtype": "float64",
+          "n_unique": 4,
+          "n_missing": 0
+         },
+         {
+          "name": "Rhat",
+          "dtype": "float64",
+          "n_unique": 4,
+          "n_missing": 0
+         },
+         {
+          "name": "Bulk_ESS",
+          "dtype": "float64",
+          "n_unique": 4,
+          "n_missing": 0
+         },
+         {
+          "name": "Tail_ESS",
+          "dtype": "float64",
+          "n_unique": 4,
+          "n_missing": 0
+         }
+        ]
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "mi_models_bout_level.RData": {
+  "bytes": 700,
+  "objects": {
+   "type": "builtins.dict",
+   "n_keys": 1,
+   "keys": {
+    "mi_models_bout_level": {
+     "type": "builtins.dict",
+     "n_keys": 2,
+     "keys": {
+      "wilcox": {
+       "type": "builtins.list",
+       "length": 3,
+       "first": {
+        "type": "builtins.dict",
+        "n_keys": 7
+       }
+      },
+      "ttest": {
+       "type": "builtins.list",
+       "length": 3,
+       "first": {
+        "type": "builtins.dict",
+        "n_keys": 10
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "mi_simulated.RData": {
+  "bytes": 2103,
+  "objects": {
+   "type": "builtins.dict",
+   "n_keys": 1,
+   "keys": {
+    "mi_simulated": {
+     "type": "pandas.DataFrame",
+     "shape": [
+      212,
+      3
+     ],
+     "columns": [
+      {
+       "name": "x",
+       "dtype": "Int32",
+       "n_unique": 100,
+       "n_missing": 0
+      },
+      {
+       "name": "y",
+       "dtype": "float64",
+       "n_unique": 212,
+       "n_missing": 0
+      },
+      {
+       "name": "group",
+       "dtype": "string",
+       "n_unique": 3,
+       "n_missing": 0
+      }
+     ]
+    }
+   }
+  }
+ }
+}
