@@ -1,0 +1,215 @@
+{
+ "stage": 8,
+ "seed": 20261127,
+ "worlds_per_kind": 50,
+ "primary_criterion": "C8: powerlaw has the lowest AICc of exponential, powerlaw, composite",
+ "secondary_criterion": "C8 and powerlaw relative probability > 0.999",
+ "summary": {
+  "F0_plain_markov": {
+   "worlds": 50,
+   "c8_fires": 0,
+   "c8_rate": 0.0,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 0,
+   "best_counts": {
+    "powerlaw": 0,
+    "composite": 6,
+    "exponential": 44,
+    "none": 0
+   }
+  },
+  "F1_two_timescale_markov": {
+   "worlds": 50,
+   "c8_fires": 0,
+   "c8_rate": 0.0,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 5,
+   "best_counts": {
+    "powerlaw": 0,
+    "composite": 15,
+    "exponential": 35,
+    "none": 0
+   }
+  },
+  "F2_pooled_individuals": {
+   "worlds": 50,
+   "c8_fires": 3,
+   "c8_rate": 0.06,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 41,
+   "best_counts": {
+    "powerlaw": 3,
+    "composite": 47,
+    "exponential": 0,
+    "none": 0
+   }
+  },
+  "F3_bout_song_types": {
+   "worlds": 50,
+   "c8_fires": 0,
+   "c8_rate": 0.0,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 50,
+   "best_counts": {
+    "powerlaw": 0,
+    "composite": 50,
+    "exponential": 0,
+    "none": 0
+   }
+  },
+  "F4_house_finch_design": {
+   "worlds": 50,
+   "c8_fires": 0,
+   "c8_rate": 0.0,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 0,
+   "best_counts": {
+    "powerlaw": 0,
+    "composite": 0,
+    "exponential": 50,
+    "none": 0
+   }
+  },
+  "F5_pooled_bout_birds": {
+   "worlds": 50,
+   "c8_fires": 0,
+   "c8_rate": 0.0,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 50,
+   "best_counts": {
+    "powerlaw": 0,
+    "composite": 50,
+    "exponential": 0,
+    "none": 0
+   }
+  },
+  "F6_high_order_markov": {
+   "worlds": 50,
+   "c8_fires": 2,
+   "c8_rate": 0.04,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 0,
+   "best_counts": {
+    "powerlaw": 2,
+    "composite": 1,
+    "exponential": 47,
+    "none": 0
+   }
+  },
+  "L1_heavy_tailed_bouts": {
+   "worlds": 50,
+   "c8_fires": 0,
+   "c8_rate": 0.0,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 50,
+   "best_counts": {
+    "powerlaw": 0,
+    "composite": 50,
+    "exponential": 0,
+    "none": 0
+   }
+  },
+  "R1_lin_tegmark_k5_d12": {
+   "worlds": 50,
+   "c8_fires": 31,
+   "c8_rate": 0.62,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 1,
+   "best_counts": {
+    "powerlaw": 31,
+    "composite": 14,
+    "exponential": 5,
+    "none": 0
+   }
+  },
+  "R2_lin_tegmark_k8_d12": {
+   "worlds": 50,
+   "c8_fires": 21,
+   "c8_rate": 0.42,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 10,
+   "best_counts": {
+    "powerlaw": 21,
+    "composite": 29,
+    "exponential": 0,
+    "none": 0
+   }
+  },
+  "R3_lin_tegmark_k5_d8_q3": {
+   "worlds": 50,
+   "c8_fires": 14,
+   "c8_rate": 0.28,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 16,
+   "best_counts": {
+    "powerlaw": 14,
+    "composite": 34,
+    "exponential": 2,
+    "none": 0
+   }
+  },
+  "R4_recursive_bouts": {
+   "worlds": 50,
+   "c8_fires": 27,
+   "c8_rate": 0.54,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 11,
+   "best_counts": {
+    "powerlaw": 27,
+    "composite": 21,
+    "exponential": 2,
+    "none": 0
+   }
+  },
+  "R5_pooled_recursive_birds": {
+   "worlds": 50,
+   "c8_fires": 40,
+   "c8_rate": 0.8,
+   "c8_strong_fires": 0,
+   "c8_strong_rate": 0.0,
+   "composite_strong_fires": 1,
+   "best_counts": {
+    "powerlaw": 40,
+    "composite": 10,
+    "exponential": 0,
+    "none": 0
+   }
+  }
+ },
+ "grade_primary": {
+  "verdict": "MIXED",
+  "max_false_alarm": 0.06,
+  "median_detection": 0.54,
+  "long_memory_rate": 0.0
+ },
+ "grade_secondary_strong": {
+  "verdict": "SPECIFIC_BUT_INSENSITIVE",
+  "max_false_alarm": 0.0,
+  "median_detection": 0.0,
+  "long_memory_rate": 0.0
+ },
+ "forecast_outcomes": {
+  "Q1": false,
+  "Q2": true,
+  "Q3": true,
+  "Q4": false,
+  "Q5": true,
+  "Q6": true,
+  "Q7": true,
+  "Q8": false
+ },
+ "brier": 0.283125,
+ "runtime_s": 1843.6993136405945
+}

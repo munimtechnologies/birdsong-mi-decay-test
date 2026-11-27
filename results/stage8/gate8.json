@@ -1,0 +1,14 @@
+{
+ "gate": [
+  "AMENDMENT-8-STAGE8.md local 16f7357404baf22eee33f07b3b31f516 remote 16f7357404baf22eee33f07b3b31f516 same",
+  "stage8.py local 91bf983a07b4048957f75bca305349fc remote 91bf983a07b4048957f75bca305349fc same",
+  "grade8.py local 861beb3acb228d9cc55485dbcae0168f remote 861beb3acb228d9cc55485dbcae0168f same",
+  "gate8.py local 3a1f190d156fc9898eb2ce063527d81b remote 3a1f190d156fc9898eb2ce063527d81b same",
+  "test_stage8.py local b896dc78e5f4a22f916fe849c25f68b3 remote b896dc78e5f4a22f916fe849c25f68b3 same"
+ ],
+ "mi_decay_sha256": "12068ae4f0526f8dda457917fd6f72dfcc36e0bcc61782fe52a9b83d5cf3fab8",
+ "mi_decay_sha256_lf": "12068ae4f0526f8dda457917fd6f72dfcc36e0bcc61782fe52a9b83d5cf3fab8",
+ "mi_decay_bytes": 16528,
+ "lib": "/tmp/mv2-stage8",
+ "utc": "2026-11-27T19:42:59Z"
+}
