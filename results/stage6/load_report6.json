@@ -1,0 +1,25 @@
+{
+ "note": "Loader report of the speech-mi6-v1 job (stage 6), trimmed: the archive member list and per-label raw counts of the job's report are left out. No alignment file is stored in this repository.",
+ "zenodo": {
+  "url": "https://zenodo.org/api/records/2619474/files/librispeech_alignments.zip/content",
+  "md5": "2bab567d0ace651a4ba254e813629f46",
+  "md5_got": "2bab567d0ace651a4ba254e813629f46",
+  "md5_ok": true,
+  "size": 623023332,
+  "license": "cc-by-4.0",
+  "record_version": "1.0"
+ },
+ "subsets": {
+  "dev-clean": {
+   "files": 2703, "bad": 0, "n_labels": 39,
+   "describe": {"speakers": 40, "chapters": 97, "utterances": 2703, "phones": 193644, "mean_utt_len": 71.64039955604883, "utts_longer_than_100": 583, "mean_chapter_len": 1996.3298969072166}
+  },
+  "test-clean": {
+   "files": 2620, "bad": 0, "n_labels": 39,
+   "describe": {"speakers": 40, "chapters": 87, "utterances": 2620, "phones": 189327, "mean_utt_len": 72.26221374045801, "utts_longer_than_100": 609, "mean_chapter_len": 2176.1724137931033}
+  }
+ },
+ "textgrids_per_subset": {"test-other": 2938, "dev-clean": 2703, "dev-other": 2864, "train-clean-360": 104008, "train-other-500": 148645, "test-clean": 2620, "train-clean-100": 28538},
+ "gate_failures": [],
+ "loader_ok": true
+}

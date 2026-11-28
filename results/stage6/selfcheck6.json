@@ -1,0 +1,20 @@
+{
+ "note": "Registered self-check of stage 6 (AMENDMENT-6-STAGE6-SPEECH.md): 8 in-class worlds, each a k-gram surrogate of dev-clean treated as data and put through T6c with 40 surrogates. Copied from the speech-mi6-v1 job output selfcheck6.json; the per-speaker list of re-fitted k in each world (40 values) is given here as counts, and the fitted dev-clean k (all 40 speakers k = 2) is in stage6_summary.json.",
+ "rows": [
+  {"world": 0, "t6a_fire": false, "real_gap": -4.667517852737959, "t6c": "UNRESOLVED", "t6c_p": 0.4878048780487805, "t6c_fire_rate": 0.0, "k_counts": {"2": 40}},
+  {"world": 1, "t6a_fire": false, "real_gap": -4.1275114240525, "t6c": "UNRESOLVED", "t6c_p": 0.36585365853658536, "t6c_fire_rate": 0.0, "k_counts": {"2": 40}},
+  {"world": 2, "t6a_fire": false, "real_gap": -4.75390156065022, "t6c": "UNRESOLVED", "t6c_p": 0.6341463414634146, "t6c_fire_rate": 0.0, "k_counts": {"2": 40}},
+  {"world": 3, "t6a_fire": false, "real_gap": -4.70940171018961, "t6c": "UNRESOLVED", "t6c_p": 0.6585365853658537, "t6c_fire_rate": 0.0, "k_counts": {"1": 1, "2": 39}},
+  {"world": 4, "t6a_fire": false, "real_gap": -3.4508458884472617, "t6c": "UNRESOLVED", "t6c_p": 0.2682926829268293, "t6c_fire_rate": 0.0, "k_counts": {"2": 40}},
+  {"world": 5, "t6a_fire": false, "real_gap": -1.315669488826785, "t6c": "EXCEEDS_FINITE_STATE", "t6c_p": 0.04878048780487805, "t6c_fire_rate": 0.0, "k_counts": {"2": 40}},
+  {"world": 6, "t6a_fire": false, "real_gap": -3.988678331493645, "t6c": "UNRESOLVED", "t6c_p": 0.24390243902439024, "t6c_fire_rate": 0.0, "k_counts": {"2": 40}},
+  {"world": 7, "t6a_fire": false, "real_gap": -4.738461539023348, "t6c": "UNRESOLVED", "t6c_p": 0.7317073170731707, "t6c_fire_rate": 0.0, "k_counts": {"2": 40}}
+ ],
+ "verdict": {
+  "worlds": 8,
+  "false_exceeds": 1,
+  "false_exceeds_rate": 0.125,
+  "suffices_rate": 0.0,
+  "calibrated": true
+ }
+}

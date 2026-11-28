@@ -1,0 +1,85 @@
+{
+ "what": "Stage 6 of birdsong-mi-decay-test (AMENDMENT-6-STAGE6-SPEECH.md): the registered stage-4 MI-decay pipeline run on read English speech (LibriSpeech Alignments, Lugosch 2019, Zenodo 2619474, CC BY 4.0) as a positive control for hierarchy. Derived statistics only.",
+ "source": "speech-mi6-v1 job output stage6_results.json (MV2-Compete on the Blade, started 2026-11-28T05:28:17Z, finished 06:45:56Z, exit 0, peak memory 0.2 GB). Copied without the per-speaker held-out likelihood tables (the chosen k of every speaker is kept) and with the 100-point MI curves reduced to the distances listed.",
+ "made_by": "MV2, Munim, Inc. (mv2@munimtech.com), with AI agents working in MV2's name; not yet checked by a human expert. CC BY 4.0.",
+ "seed": 20261124,
+ "n_perm": 100,
+ "n_surr": 100,
+ "n_surr_utt": 100,
+ "headline": "SPLIT_OR_UNRESOLVED",
+ "describe": {
+  "dev-clean": {"speakers": 40, "chapters": 97, "utterances": 2703, "phones": 193644},
+  "test-clean": {"speakers": 40, "chapters": 87, "utterances": 2620, "phones": 189327}
+ },
+ "units": {
+  "dev-clean/chapter": {
+   "n_points": 71,
+   "aicc": {"exponential": -215.36081469143397, "powerlaw": -180.3083934242164, "composite": -212.6289151838736},
+   "w": {"exponential": 0.7967249716043562, "powerlaw": 1.948820603839268e-08, "composite": 0.20327500890743783},
+   "best": "exponential",
+   "t6a_fire": false,
+   "gap_exp_minus_composite": -2.731899507560371,
+   "T6b": {"n": 100, "fire_rate": 0.0, "gap_p95": 1.0918999847533135, "p_upper": 0.44554455445544555},
+   "T6c": {"n": 100, "fire_rate": 0.0, "gap_p95": -2.3241991852259307, "p_upper": 0.07920792079207921, "grade": "UNRESOLVED"}
+  },
+  "test-clean/chapter": {
+   "n_points": 72,
+   "aicc": {"exponential": -171.48118256042605, "powerlaw": -148.21519430586278, "composite": -168.26637381334638},
+   "w": {"exponential": 0.8330445513706933, "powerlaw": 7.387935082950471e-06, "composite": 0.16694806069422372},
+   "best": "exponential",
+   "t6a_fire": false,
+   "gap_exp_minus_composite": -3.2148087470796725,
+   "T6b": {"n": 100, "fire_rate": 0.0, "gap_p95": 4.579123875362129, "p_upper": 0.900990099009901},
+   "T6c": {"n": 100, "fire_rate": 0.0, "gap_p95": -0.389965121073667, "p_upper": 0.2871287128712871, "grade": "UNRESOLVED"}
+  },
+  "dev-clean/utterance": {
+   "n_points": 53,
+   "aicc": {"exponential": -132.29972361407866, "powerlaw": -116.75944818427429, "composite": -128.05853543782075},
+   "w": {"exponential": 0.8925523239265255, "powerlaw": 0.00037679553854910914, "composite": 0.10707088053492538},
+   "best": "exponential",
+   "t6a_fire": false,
+   "gap_exp_minus_composite": -4.241188176257907,
+   "T6b": null,
+   "T6c": {"n": 100, "fire_rate": 0.0, "gap_p95": -4.769709180956083, "p_upper": 0.009900990099009901, "grade": "EXCEEDS_FINITE_STATE"}
+  },
+  "test-clean/utterance": {
+   "n_points": 44,
+   "aicc": {"exponential": -106.8131474608758, "powerlaw": -82.26981879302387, "composite": -102.0382573355349},
+   "w": {"exponential": 0.9158609751804345, "powerlaw": 4.288579350603739e-06, "composite": 0.08413473624021482},
+   "best": "exponential",
+   "t6a_fire": false,
+   "gap_exp_minus_composite": -4.774890125340903,
+   "T6b": null,
+   "T6c": {"n": 100, "fire_rate": 0.0, "gap_p95": -4.753901561740095, "p_upper": 0.07920792079207921, "grade": "UNRESOLVED"}
+  }
+ },
+ "chosen_k": {
+  "dev-clean": {"1272": 2, "1462": 2, "1673": 2, "174": 2, "1919": 2, "1988": 2, "1993": 2, "2035": 2, "2078": 2, "2086": 2, "2277": 2, "2412": 2, "2428": 2, "251": 2, "2803": 2, "2902": 2, "3000": 2, "3081": 2, "3170": 2, "3536": 2, "3576": 2, "3752": 2, "3853": 2, "422": 2, "5338": 2, "5536": 2, "5694": 2, "5895": 2, "6241": 2, "6295": 2, "6313": 2, "6319": 2, "6345": 2, "652": 2, "777": 2, "7850": 2, "7976": 2, "8297": 2, "84": 2, "8842": 2},
+  "test-clean": {"1089": 2, "1188": 2, "121": 1, "1221": 2, "1284": 2, "1320": 2, "1580": 2, "1995": 2, "2094": 2, "2300": 2, "237": 2, "260": 2, "2830": 2, "2961": 2, "3570": 3, "3575": 2, "3729": 2, "4077": 2, "4446": 2, "4507": 1, "4970": 2, "4992": 2, "5105": 2, "5142": 2, "5639": 2, "5683": 2, "61": 2, "672": 2, "6829": 2, "6930": 2, "7021": 2, "7127": 2, "7176": 2, "7729": 2, "8224": 2, "8230": 3, "8455": 2, "8463": 2, "8555": 2, "908": 2}
+ },
+ "mi_dev_clean_chapter": {
+  "what": "MI minus shuffled baseline at selected distances (phones), dev-clean chapter sequences, full precision from the job's 100-point curve",
+  "values": {"1": 0.5535020738967589, "2": 0.16234811696163298, "3": 0.053927011425411564, "4": 0.018188302602315076, "5": 0.007434853155368515, "6": 0.003169337848877518, "7": 0.0014952024761676341, "8": 0.001052743895952446, "9": 0.00035050878815212627, "10": 8.936331907882789e-05, "15": 7.378111142841703e-05, "20": -4.753821308156603e-05, "30": 0.0002772481269790461, "40": 0.00020705303912826878, "50": 0.0003532232176244321, "60": -0.00038383157171928417, "70": -0.0002214395708293182, "80": 0.0003069081132665019, "90": 0.00022066413874455293, "100": 0.0003530960233018021},
+  "tail_11_to_100_min": -0.00043608474834755384,
+  "tail_11_to_100_max": 0.0007625918167164514
+ },
+ "chart_mi_by_distance": {
+  "what": "Points of the article chart: MI minus shuffled baseline by distance. Speech values are the dev-clean chapter values above rounded to 5 decimals. Finch values are copied from results/stage4/stage4_results.json (real Bengalese finch song, 4 birds pooled, 215,740 syllables), as plotted in READING-BF4.md's article.",
+  "distances": [1, 2, 3, 4, 5, 6, 8, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+  "speech_dev_clean_chapters": [0.5535, 0.16235, 0.05393, 0.01819, 0.00743, 0.00317, 0.00105, 0.00009, 0.00007, -0.00005, 0.00028, 0.00021, 0.00035, -0.00038, -0.00022, 0.00031, 0.00022, 0.00035],
+  "finch_real_song_stage4": [1.5742, 1.326, 1.1334, 1.0222, 0.9329, 0.8617, 0.6991, 0.5719, 0.3696, 0.2662, 0.1273, 0.0606, 0.0325, 0.0228, 0.0212, 0.0176, 0.015, 0.0124]
+ },
+ "finch_stage4_reference": {"syllables": 215740, "birds": 4, "real_gap_exp_minus_composite": 138.84, "source": "results/stage4/grade4.json and READING-BF4.md"},
+ "forecasts": [
+  {"id": "P1", "statement": "T6a fires on dev-clean chapters", "p": 0.80, "outcome": false},
+  {"id": "P2", "statement": "T6a fires on test-clean chapters", "p": 0.80, "outcome": false},
+  {"id": "P3", "statement": "self-check calibrated", "p": 0.80, "outcome": true},
+  {"id": "P4", "statement": "dev-clean chapter T6c = EXCEEDS_FINITE_STATE", "p": 0.70, "outcome": false},
+  {"id": "P5", "statement": "headline POSITIVE_CONTROL_PASSES", "p": 0.60, "outcome": false},
+  {"id": "P6", "statement": "headline POSITIVE_CONTROL_FAILS", "p": 0.15, "outcome": false},
+  {"id": "P7", "statement": "dev-clean T6b upper p <= 0.05", "p": 0.55, "outcome": false},
+  {"id": "P8", "statement": "dev-clean utterance-level T6c = EXCEEDS_FINITE_STATE", "p": 0.45, "outcome": true},
+  {"id": "P9", "statement": "median chosen k across the 80 speakers >= 3", "p": 0.70, "outcome": false}
+ ],
+ "brier": 0.3652777777777778
+}
