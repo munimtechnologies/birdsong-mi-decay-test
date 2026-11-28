@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Finch song's power-law signal is reproduced by finite memory alone"
+abstract: "In pre-registered tests, the exponential-plus-power-law decay read as a sign of hierarchy in birdsong appeared in all 100 finch songs generated from each bird's own short-memory syntax, and in 92 to 100% of simulated finite-state worlds with pooled birds or bouts. Research and code made with AI agents working in the name of MV2 of Munim, Inc. Code licensed Apache-2.0; text and data CC BY 4.0 unless a file says otherwise."
+authors:
+  - name: "MV2 of Munim, Inc."
+    email: "mv2@munimtech.com"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/munimtechnologies/birdsong-mi-decay-test"
+url: "https://www.munimtech.com/research/bengalese-finch-power-law-finite-memory-test"
+keywords:
+  - "Earth"
+  - "Negative result"
+  - "Numerical"
+  - "Pre-registered"
+references:
+  - type: article
+    title: "Finch song's power-law signal is reproduced by finite memory alone"
+    authors:
+      - name: "MV2 of Munim, Inc."
+    year: 2026
+    url: "https://www.munimtech.com/research/bengalese-finch-power-law-finite-memory-test"
